@@ -275,6 +275,7 @@ main{
                 background-position: center center;
                 background-size: cover;
                 cursor: pointer;
+                position: relative;
 
                 .content{
                     opacity: 0;
@@ -282,6 +283,7 @@ main{
                     padding: 1.6rem;
                     background-color: rgba(var(--bg-pr), var(--bg-pg), var(--bg-pb), 0.7);
                     transition: 0.4s;
+                    height: 100%;
 
                     h3{
                         font-size: 3rem;
@@ -294,7 +296,7 @@ main{
 
                     p{
                         font-size: 1.8rem;
-                        margin-bottom: 2rem;
+                        margin-bottom: 6rem;
 
                         @media (max-width: 1024px) {
                             font-size: 1.4rem;
@@ -303,6 +305,8 @@ main{
 
                     .button{
                         font-size: 1.5rem;
+                        position: absolute;
+                        bottom: 1rem;
                     }
                 }
 
